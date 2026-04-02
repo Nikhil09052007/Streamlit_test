@@ -9,3 +9,15 @@ st.markdown("**MarkDown**")
 st.text("This is plain text")
 st.write("st.write can handle mixed characters and bold contexts and numbers.")
 
+
+
+st.markdown('### Code Block Example')
+st.code('''
+Python Example:
+def New(name):
+    print(f"Hello! new member{name}")
+
+
+
+
+''')
