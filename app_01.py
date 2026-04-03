@@ -16,8 +16,7 @@ st.code('''
 Python Example:
 def New(name):
     print(f"Hello! new member{name}")
+print(New("Streamlit")
+''', language="python")
 
-
-
-
-''')
+st.markdown("### Inline Latex: $a^2 + b^2 = c^2$ ")
